@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1D9E75;
+  --brand-dark: #0F6E56;
+  --brand-light: #E1F5EE;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f9fafb;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Sora', sans-serif;
+}
